@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: #162831;
     width: 1296px;
@@ -9,6 +13,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 nav {
@@ -26,3 +32,38 @@ nav a {
     border: none;
     color: white;
 }
+.banner {
+    background-image: url(../style/img/0509c319c0421e2121719dcaf9b2af82.jfif);
+    background-size: cover;
+    background-position: 0 -140px;
+    background-blend-mode: color;
+    background-color: #98c9dc96;
+    width: 1296px;
+    height: 464px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 123px;
+}
+
+.banner h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.banner h1 {
+
+font-size: 64px;
+font-weight: 700;
+text-align: center;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "El Messiri", sans-serif;
+}
+
