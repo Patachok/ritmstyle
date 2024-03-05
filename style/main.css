@@ -53,6 +53,16 @@ nav a {
     font-weight: 700;
 }
 
+.banner h2::before {
+    content: url(../style/img/decore\ white.svg);
+    margin: 66px;
+}
+
+.banner h2::after {
+    content: url(../style/img/decore\ white\ 2.svg);
+    margin: 66px;
+
+}
 .banner h1 {
 
 font-size: 64px;
