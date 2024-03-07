@@ -77,3 +77,97 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "El Messiri", sans-serif;
 }
 
+.title {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    color: white;
+    font-size: 42px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    
+
+}
+
+.title::before {
+    content: url(../style/img/decore\ blu\ left.svg);
+    margin: 45px;
+}
+
+.title::after {
+    content: url(../style/img/decore\ blue\ riht.svg);
+    margin: 45px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    color: white;
+    font-size: 24px;
+    
+
+    }
+    
+    .div1 { 
+        grid-area: 1 / 1 / 3 / 2;
+        background-image: url(../style/img/сеансы\ ритмстайл.png);
+        border-radius: 10px;
+        height: 540px;
+        background-size: cover;
+        display: flex;
+        align-items: end;
+        
+    }
+
+    .div2 { 
+        grid-area: 1 / 2 / 2 / 3; 
+        background-image: url(../style/img/cсеансы\ маленькие.png);
+        border-radius: 10px;
+        background-size: cover;
+        display: flex;
+        align-items: end;
+        
+    
+    }
+
+    .div3 { 
+        grid-area: 1 / 3 / 2 / 4; 
+        background-image: url(../style/img/cсеансы\ маленькие.png);
+        border-radius: 10px;
+        background-size: cover;
+        display: flex;
+        align-items: end;
+        
+    }
+    
+
+    .div4 {
+         grid-area: 2 / 2 / 3 / 3; 
+         background-image: url(../style/img/cсеансы\ маленькие.png);
+         border-radius: 10px;
+         background-size: cover;
+        display: flex;
+        align-items: end;
+    }
+        
+
+    .div5 {
+         grid-area: 2 / 3 / 3 / 4; 
+         background-image: url(../style/img/cсеансы\ маленькие.png);
+         border-radius: 10px;
+         background-size: cover;
+        display: flex;
+        align-items: end;
+    
+        }
+
+    .seans {
+        padding-left: 40px;
+        padding-bottom: 30px;
+    }
+    
+   
+
